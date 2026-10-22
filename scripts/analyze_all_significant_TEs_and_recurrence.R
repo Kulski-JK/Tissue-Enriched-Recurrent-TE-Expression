@@ -287,7 +287,7 @@ write.csv(
 write.csv(
   TE_enriched,
   file.path(
-    input_dir,
+    output_dir,
     "All_Significant_Tissue_Enriched_TE.csv"
   ),
   row.names = FALSE
@@ -296,7 +296,7 @@ write.csv(
 write.csv(
   TE_depleted,
   file.path(
-    input_dir,
+    output_dir,
     "All_Significant_Tissue_Depleted_TE.csv"
   ),
   row.names = FALSE
@@ -363,7 +363,7 @@ head(cross_tissue, 20)
 write.csv(
   cross_tissue,
   file.path(
-    input_dir,
+    output_dir,
     "All_Significant_Cross_Tissue_Recurrent_TE.csv"
   ),
   row.names = FALSE
@@ -456,7 +456,7 @@ head(within_tissue_duplicates, 20)
 write.csv(
   within_tissue_duplicates,
   file.path(
-    input_dir,
+    output_dir,
     "All_Significant_Within_Tissue_Duplicate_TE.csv"
   ),
   row.names = FALSE
@@ -525,7 +525,7 @@ print(summary_table)
 write.csv(
   summary_table,
   file.path(
-    input_dir,
+    output_dir,
     "All_Significant_TE_Summary.csv"
   ),
   row.names = FALSE
