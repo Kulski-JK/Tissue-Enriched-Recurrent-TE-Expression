@@ -326,7 +326,7 @@ cross_tissue <- TE_enriched %>%
         collapse = "; "
       ),
     
-    Total_Topological_Positions =
+    Number_of_Enriched_Rows =
       n(),
     
     Original_SalmonTE_Names =
